@@ -1,4 +1,13 @@
 body {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    color: $grey;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: $montserrat;
+    background-color: $bl-light;
+}
+
+img {
+    width: 100%;
 }

@@ -1,0 +1,20 @@
+.header {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+}
+
+.header__title {
+    color: $green;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header__sub__title {
+    color: $grey;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,20 @@
+.search__bar {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.search__bar__input {
+    height: 42px;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid $grey;
+    background-color: $bl-light;
+
+    &:focus {
+        color: $white;
+        box-shadow: none;
+        border: 1px solid $green;
+        background-color: $bl-light;
+    }
+}
